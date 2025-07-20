@@ -135,8 +135,7 @@ Middleware:
 .env example:
 MONGO_URI=<Your MongoDB URI>
 JWT_SECRET=<Your JWT secret>
-STRIPE_SECRET_KEY=<Stripe Key>
-CLIENT_URL=http://localhost:3000
+STRIPE_SECRET_KEY=<Stripe Key>CLIENT_URL=http://localhost:3000
 
 
  
@@ -152,8 +151,6 @@ cd ../client && npm install
 3. Run locally
 cd server && npm run dev
 cd ../client && npm start
-
-4. Open http://localhost:3000 in browser
 
 🔮 Future Improvements
 - Flight filters (duration, airline, stops)
